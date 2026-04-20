@@ -29,7 +29,7 @@ export default function Page() {
           </h1>
 
           <p className="mt-7 max-w-2xl text-[18px] leading-8 text-[#5c6472] md:text-[20px] md:leading-9">
-            We’re building a calm, elegant space for families to access expert speech therapy,
+            We’re building a calmmmmmmm, elegant space for families to access expert speech therapy,
             guidance, and resources. Please check back soon.
           </p>
 
