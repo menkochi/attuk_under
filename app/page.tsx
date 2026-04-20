@@ -10,7 +10,7 @@ export default function Page() {
               className="h-9 w-9 rounded-full object-cover md:h-10 md:w-10"
             />
             <span className="font-serif text-[18px] tracking-[-0.02em] md:text-[20px]">
-              Ask the Therapist
+              Ask the Therapistttt
             </span>
           </div>
         </div>
