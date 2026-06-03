@@ -23,7 +23,7 @@ const services = [
   {
     title: "Sensory Integration",
     tag: "Advanced SIP",
-    desc: "Specialised support for children whose sensory processing affects learning, behaviour, and everyday routines. Priya is qualified as an Advanced Sensory Integration Practitioner.",
+    desc: "Specialised support for children whose sensory processing affects learning, behaviour, and everyday routines. I'm a qualified Advanced Sensory Integration Practitioner.",
   },
   {
     title: "Autism Assessment",
@@ -36,7 +36,7 @@ const steps = [
   {
     n: "01",
     title: "Get in touch",
-    desc: "Send a message by email or WhatsApp — no referral needed. Priya will get back to you personally to understand your concerns.",
+    desc: "Send a message by email or WhatsApp — no referral needed. I'll get back to you personally to understand your concerns.",
   },
   {
     n: "02",
@@ -99,7 +99,7 @@ export default function Page() {
               </h1>
 
               <p className="mt-6 max-w-lg text-[18px] leading-[1.8] text-[#5c6472]">
-                Expert speech and language therapy led by Priya Silvarajan — a Reg. HCPC therapist, Advanced Sensory Integration Practitioner, and ADOS-2 Assessor.
+                I'm Priya Silvarajan — a Reg. HCPC Speech & Language Therapist, Advanced Sensory Integration Practitioner, and ADOS-2 Assessor. I'm here to help your child thrive.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -165,7 +165,7 @@ export default function Page() {
                 Every parent's journey is different. Whether your child has been slow to talk, received a diagnosis, or you've simply had a nagging feeling something isn't quite right — you don't have to navigate it alone.
               </p>
               <p className="mt-4 text-[17px] leading-[1.85] text-[#5c6472]">
-                Priya works closely with families to understand the full picture, creating plans that make a real difference — at home, in school, and in daily life.
+                I work closely with each family to understand the full picture, building plans that make a real difference — at home, in school, and in daily life.
               </p>
             </div>
 
@@ -175,8 +175,8 @@ export default function Page() {
                   key={item}
                   className="flex items-start gap-2.5 rounded-[12px] border border-[#e7dfd3] bg-white px-4 py-4 shadow-[0_2px_8px_rgba(32,58,107,0.04)]"
                 >
-                  <span className="mt-0.5 flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-[#fdf0e0]">
-                    <span className="h-1.5 w-1.5 rounded-full bg-[#e79a3c]" />
+                  <span className="mt-0.5 flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-[#eaf4f0]">
+                    <span className="h-1.5 w-1.5 rounded-full bg-[#3d8069]" />
                   </span>
                   <p className="text-[14px] leading-snug text-[#203a6b]">{item}</p>
                 </div>
@@ -192,7 +192,7 @@ export default function Page() {
         <div className="mx-auto max-w-6xl">
           <p className="text-[11px] font-medium uppercase tracking-widest text-[#7db6d6]">Specialist services</p>
           <h2 className="mt-3 font-serif text-[32px] leading-[1.1] tracking-[-0.03em] text-white md:text-[46px]">
-            What Priya offers
+            What I offer
           </h2>
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
@@ -213,7 +213,7 @@ export default function Page() {
       </section>
 
       {/* ── How it works ── */}
-      <section className="bg-[#fcfaf7] px-5 py-16 md:px-10 md:py-24">
+      <section className="bg-[#eef6f2] px-5 py-16 md:px-10 md:py-24">
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-12 md:grid-cols-[1fr_1fr] md:items-start md:gap-20">
 
@@ -229,7 +229,7 @@ export default function Page() {
                 href="https://wa.me/447386115523"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-7 inline-flex items-center gap-2 text-[15px] font-medium text-[#e79a3c] hover:underline"
+                className="mt-7 inline-flex items-center gap-2 text-[15px] font-medium text-[#3d8069] hover:underline"
               >
                 Get started today
                 <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4">
@@ -244,7 +244,7 @@ export default function Page() {
                   key={item.n}
                   className={`flex gap-6 py-7 ${i < steps.length - 1 ? "border-b border-[#e7dfd3]" : ""}`}
                 >
-                  <span className="mt-0.5 min-w-[40px] font-serif text-[36px] leading-none text-[#e0d9d0]">
+                  <span className="mt-0.5 min-w-[40px] font-serif text-[36px] leading-none text-[#a8d9c8]">
                     {item.n}
                   </span>
                   <div>
@@ -267,13 +267,13 @@ export default function Page() {
             <div>
               <p className="text-[11px] font-medium uppercase tracking-widest text-[#b0b8c2]">About</p>
               <h2 className="mt-3 font-serif text-[32px] leading-[1.1] tracking-[-0.03em] md:text-[46px]">
-                Meet Priya
+                A little about me
               </h2>
               <p className="mt-5 text-[17px] leading-[1.85] text-[#5c6472]">
-                Priya Silvarajan is a Clinical Manager, Speech and Language Therapist, and Advanced Sensory Integration Practitioner. She is registered with the Health and Care Professions Council (HCPC) and a Certified Member of the Royal College of Speech & Language Therapists.
+                I'm Priya Silvarajan — a Clinical Manager, Speech and Language Therapist, and Advanced Sensory Integration Practitioner. I'm registered with the Health and Care Professions Council (HCPC) and a Certified Member of the Royal College of Speech & Language Therapists.
               </p>
               <p className="mt-4 text-[17px] leading-[1.85] text-[#5c6472]">
-                Trained at the University of Canterbury, Priya has built her career supporting children with a broad range of communication and sensory needs. As a qualified ADOS-2 assessor, she also provides autism diagnostic assessments — helping families get the answers and support they deserve.
+                I trained at the University of Canterbury and have spent my career supporting children with a broad range of communication and sensory needs. As a qualified ADOS-2 assessor, I also carry out autism diagnostic assessments — helping families finally get the answers and support they deserve.
               </p>
               <div className="mt-7 flex flex-wrap gap-2">
                 {credentials.map((b) => (
@@ -318,7 +318,7 @@ export default function Page() {
             Ready to take the first step?
           </h2>
           <p className="mt-5 text-[18px] leading-[1.8] text-[rgba(255,255,255,0.82)]">
-            Getting in touch is easy and there's no obligation. Priya will help you work out the right next step for your child.
+            Getting in touch is easy and there's no obligation. I'll help you work out the right next step for your child.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <a
