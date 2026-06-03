@@ -38,7 +38,15 @@ export default function Page() {
               href="mailto:priya@askthetherapist.co.uk"
               className="rounded-[10px] bg-[#e79a3c] px-8 py-4 text-[17px] font-medium text-white shadow-[0_12px_24px_rgba(231,154,60,0.28)] transition-transform hover:-translate-y-[1px]"
             >
-              Contact us
+              Email us
+            </a>
+            <a
+              href="https://wa.me/447386115523"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-[10px] bg-[#25d366] px-8 py-4 text-[17px] font-medium text-white shadow-[0_12px_24px_rgba(37,211,102,0.28)] transition-transform hover:-translate-y-[1px]"
+            >
+              WhatsApp us
             </a>
           </div>
 
